@@ -11,6 +11,7 @@ import java.util.*
 
 
 class MainActivity : FragmentActivity() {
+    fun createFragment() = MainFragment.newInstance()
 
     private var badge_position: Int = 3
     private val TAG = "MainActivity"
